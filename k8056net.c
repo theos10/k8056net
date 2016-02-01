@@ -109,7 +109,7 @@ char parse_cmdline(int argc,char *argv[]) {
 		case 'a':
             	k8056_addr = atoi(optarg);
             	break;
-		case 'i':
+	case 'i':
             	//strlcpy(htoname, optarg, sizeof(htoname));
 		htoname = optarg;
             	break;
